@@ -6,7 +6,7 @@ Three switches to start, pause, and reset.
 
 The collatz conjecture is an interesting problem because, although a rather trivial calculation, there is no mathematical proof of convergence. It has been experimentally proven that all numbers up to 5\*2^60 do converge, but there is yet a proof that every single number will converge to 1.
 
-The FPGA board is an interesting platform to expression this problem on due to the growth with each cycle. Some numbers grow relatively large, and some numbers take many cycles to converge. The FPGA board is a quick and easy way to input a number and see how quickly it converges in real time.
+The FPGA board is an interesting platform to express this problem on due to the potentially large growth with each cycle. Some numbers grow relatively large and overflow while some numbers take many cycles to converge without overflowing. The FPGA board is a quick and easy way to input a number and see how quickly it converges in real time.
 
 Examples:
 Input - Cycles Until Convergence - Outcome
