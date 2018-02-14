@@ -8,11 +8,11 @@ The collatz conjecture is an interesting problem because, although a rather triv
 
 The FPGA board is an interesting platform to express this problem on due to the potentially large growth with each cycle. Some numbers grow relatively large and overflow while some numbers take many cycles to converge without overflowing. The FPGA board is a quick and easy way to input a number and see how quickly it converges in real time.
 
-Examples:
-Input - Cycles Until Convergence - Outcome
-6171 - 261 cycles - overflow
-871 - 178 cycles - overflow
-97 - 118 cycles - converges to 1
+Examples:  
+Input - Cycles Until Convergence - Outcome  
+6171 - 261 cycles - overflow  
+871 - 178 cycles - overflow  
+97 - 118 cycles - converges to 1  
 
 Schematic of Collatz Conjecture architecture implemented in Verilog on a Basys3 FPGA
 ![alt text](https://github.com/TristanCreek/Collatz-Conjecture/blob/master/schematic.png)
